@@ -131,4 +131,4 @@ process.on("uncaughtException", error =>
   console.log(chalk.redBright("[Uncaught Exception]"), error)
 );
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.CLIENT_TOKEN);
